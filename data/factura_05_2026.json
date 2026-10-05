@@ -1,0 +1,104 @@
+{
+  "metadata_sanitizacion": {
+    "protocolo": "PII Masking - Ley 25.326 de Proteccion de Datos Personales (Argentina)",
+    "titular_sanitizado": "USUARIO_ANON_01",
+    "domicilio_sanitizado": "Avda. San Martín 12XX, Salta Capital",
+    "responsable_auditoria": "Estudiante UGD (Matricula: 100001)",
+    "catedra": "Principios de Inteligencia Artificial (GT110) - UGD 2026",
+    "fecha_procesamiento": "2026-05-25T12:00:00Z"
+  },
+  "bloque_a_identificacion": {
+    "nis": "3024***",
+    "nro_liquidacion": "0101-52060000",
+    "periodo_facturado": "05/2026",
+    "fecha_emision": "2026-05-20",
+    "fecha_vencimiento": "2026-06-16",
+    "proximo_vencimiento": "2026-07-17",
+    "fecha_corte_suspension": "2026-06-30",
+    "deuda_vencida_pendiente": 0.0,
+    "pago_anterior_registrado": 285400.0,
+    "total_factura": 315798.64
+  },
+  "bloque_b_electricidad_edesa": {
+    "empresa_distribuidora": "EDESA S.A.",
+    "categoria_tarifaria": "T1-R2-SEF",
+    "descripcion_categoria": "Tarifa 1 Pequeñas Demandas, Rango 2 Residencial, Servicio Electrico Focalizado",
+    "tipo_inmueble_declarado": "RESIDENCIAL",
+    "medidor": "1688***",
+    "marca_medidor": "LANDIS+GYR",
+    "potencia_contratada_kw": 2.0,
+    "periodo_lectura": {
+      "desde": "2026-04-15",
+      "hasta": "2026-05-14",
+      "dias": 29
+    },
+    "energia_activa": {
+      "lectura_anterior": 27499.0,
+      "lectura_actual": 27874.0,
+      "constante": 1.0,
+      "consumo_kwh": 375.0
+    },
+    "energia_reactiva": {
+      "lectura_anterior": 10250.0,
+      "lectura_actual": 10420.0,
+      "constante": 1.0,
+      "consumo_kvarh": 170.0
+    },
+    "factor_potencia_cos_phi": 0.966,
+    "desglose_costos": {
+      "cargo_fijo_total": 7500.0,
+      "energia_activa_base_200kwh": 31000.0,
+      "energia_activa_excedente": 89400.0,
+      "iva_consumidor_final_21": 26900.0,
+      "subtotal_edesa_neto": 154800.0,
+      "incidencia_energia_alumbrado_publico_kwh": 25.0,
+      "incidencia_energia_alumbrado_publico_monto": 10600.0,
+      "subtotal_con_alumbrado": 165400.0,
+      "subsidio_estatal_declarado": 23500.0
+    }
+  },
+  "bloque_c_agua_aguas_del_norte": {
+    "empresa_concesionaria": "Aguas del Norte S.A. / CoSAySa",
+    "usuario_id": "395**",
+    "codigo_servicio": "AGYCL",
+    "descripcion_servicio": "Agua Potable y Desagües Cloacales",
+    "catastro": "430**",
+    "condicion_fiscal": "IVA Sujeto No Categorizado",
+    "categoria_uso": "NO RESIDENCIAL 1",
+    "tipo_inmueble_declarado": "NO_RESIDENCIAL",
+    "medidor": "0000007***",
+    "diametro_mm": 19,
+    "coeficiente": 1.1,
+    "periodo_lectura": {
+      "desde": "2026-03-27",
+      "hasta": "2026-04-25",
+      "dias": 29
+    },
+    "lecturas_volumen": {
+      "lectura_anterior_m3": 4415.0,
+      "lectura_actual_m3": 4444.0,
+      "consumo_m3": 29.0,
+      "tipo_lectura": "REAL"
+    },
+    "desglose_costos": {
+      "cargo_fijo": 58500.0,
+      "consumo_variable": 32000.0,
+      "iva_no_categorizado_27": 24435.0,
+      "percepcion_iva_no_categorizado_13_5": 12217.5,
+      "iva_consumidor_final_21": 0.0,
+      "percepcion_consumidor_final": 0.0,
+      "subtotal_aguas_del_norte": 105000.0
+    }
+  },
+  "bloque_d_tributos_municipales_y_concesiones": {
+    "municipalidad_de_salta": {
+      "impuesto_inmobiliario": 21000.0,
+      "tasa_general_inmuebles_tgi": 18000.0,
+      "subtotal_municipal": 39000.0
+    },
+    "lusal_ute": {
+      "mantenimiento_alumbrado_publico": 6398.64,
+      "subtotal_lusal": 6398.64
+    }
+  }
+}

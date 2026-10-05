@@ -1,0 +1,115 @@
+{
+  "metadata_sanitizacion": {
+    "protocolo": "PII Masking - Ley 25.326 de Proteccion de Datos Personales (Argentina)",
+    "titular_sanitizado": "USUARIO_ANON_01",
+    "domicilio_sanitizado": "Avda. San Martín 12XX, Salta Capital",
+    "responsable_auditoria": "Estudiante UGD (Matricula: 100001)",
+    "catedra": "Principios de Inteligencia Artificial (GT110) - UGD 2026",
+    "fecha_procesamiento": "2026-06-25T12:00:00Z"
+  },
+  "bloque_a_identificacion": {
+    "nis": "3024***",
+    "nro_liquidacion": "0101-52061101",
+    "periodo_facturado": "06/2026",
+    "fecha_emision": "2026-06-23",
+    "fecha_vencimiento": "2026-07-17",
+    "proximo_vencimiento": "2026-08-18",
+    "fecha_corte_suspension": "2026-07-31",
+    "deuda_vencida_pendiente": 0.0,
+    "pago_anterior_registrado": 315798.64,
+    "total_factura": 439863.51
+  },
+  "bloque_b_electricidad_edesa": {
+    "empresa_distribuidora": "EDESA S.A.",
+    "categoria_tarifaria": "T1-R2-SEF",
+    "descripcion_categoria": "Tarifa 1 Pequeñas Demandas, Rango 2 Residencial, Servicio Electrico Focalizado",
+    "tipo_inmueble_declarado": "RESIDENCIAL",
+    "medidor": "1688***",
+    "marca_medidor": "LANDIS+GYR",
+    "potencia_contratada_kw": 2.0,
+    "periodo_lectura": {
+      "desde": "2026-05-15",
+      "hasta": "2026-06-14",
+      "dias": 30
+    },
+    "energia_activa": {
+      "lectura_anterior": 27874.0,
+      "lectura_actual": 28592.0,
+      "constante": 1.0,
+      "consumo_kwh": 718.0
+    },
+    "energia_reactiva": {
+      "lectura_anterior": 10420.0,
+      "lectura_actual": 10615.0,
+      "constante": 1.0,
+      "consumo_kvarh": 195.0
+    },
+    "factor_potencia_cos_phi": 0.962,
+    "desglose_costos": {
+      "cargo_fijo_total": 8450.0,
+      "energia_activa_base_200kwh": 34800.0,
+      "energia_activa_excedente": 145040.49,
+      "iva_consumidor_final_21": 39540.64,
+      "subtotal_edesa_neto": 227831.13,
+      "incidencia_energia_alumbrado_publico_kwh": 26.5,
+      "incidencia_energia_alumbrado_publico_monto": 11019.32,
+      "subtotal_con_alumbrado": 238850.45,
+      "subsidio_estatal_declarado": 24604.05
+    }
+  },
+  "bloque_c_agua_aguas_del_norte": {
+    "empresa_concesionaria": "Aguas del Norte S.A. / CoSAySa",
+    "usuario_id": "395**",
+    "codigo_servicio": "AGYCL",
+    "descripcion_servicio": "Agua Potable y Desagües Cloacales",
+    "catastro": "430**",
+    "condicion_fiscal": "IVA Sujeto No Categorizado",
+    "categoria_uso": "NO RESIDENCIAL 1",
+    "tipo_inmueble_declarado": "NO_RESIDENCIAL",
+    "medidor": "0000007***",
+    "diametro_mm": 19,
+    "coeficiente": 1.1,
+    "periodo_lectura": {
+      "desde": "2026-04-26",
+      "hasta": "2026-05-26",
+      "dias": 30
+    },
+    "lecturas_volumen": {
+      "lectura_anterior_m3": 4444.0,
+      "lectura_actual_m3": 4475.0,
+      "consumo_m3": 31.0,
+      "rango_m3": "20 a 50 m3",
+      "precio_unitario_m3": 1299.787
+    },
+    "desglose_costos": {
+      "cargo_fijo": 62195.22,
+      "consumo_variable": 40293.4,
+      "tasa_fiscalizacion_enresp_2": 2049.77,
+      "iva_no_categorizado_27": 27671.93,
+      "percepcion_iva_no_categorizado_13_5": 17571.67,
+      "subtotal_aguas_del_norte": 149781.99
+    }
+  },
+  "bloque_d_tributos_municipales_y_concesiones": {
+    "municipalidad_de_salta": {
+      "tasa_municipal": 40992.56,
+      "proteccion_bienes_y_personas": 1116.77,
+      "impuesto_inmobiliario": 2608.67,
+      "subtotal_municipal": 44718.0
+    },
+    "lusal_ute": {
+      "concepto": "Mantenimiento Alumbrado Publico",
+      "tarifa": "C1",
+      "subtotal_lusal": 6513.07
+    },
+    "subtotal_conceptos_municipales_y_externos": 51231.07
+  },
+  "bloque_e_marco_regulatorio_enresp": {
+    "ente_regulador": "Ente Regulador de los Servicios Publicos de Salta (ENRESP)",
+    "resolucion_desdoblamiento": "Resolucion ENRESP Nro. 1590/24",
+    "derecho_desdoblamiento": true,
+    "servicio_esencial_prioritario": "ENERGIA_ELECTRICA",
+    "monto_desdoblable_energia": 238850.45,
+    "monto_conceptos_desdoblables_excluidos": 201013.06
+  }
+}

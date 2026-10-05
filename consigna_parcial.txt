@@ -1,0 +1,132 @@
+=== PAGE 1 ===
+ 
+Examen: Primer Parcial​
+Cátedra: PRINCIPIOS DE INTELIGENCIA ARTIFICIAL​
+Docente: Mgter. Ing. Agustín Encina​
+Estudiante: _________________________________________ 
+"Diseño y Análisis de un Sistema Inteligente: Del Concepto a la Aplicación" 
+Descripción General 
+Estudiantes deberán elaborar un paper académico original donde diseñen, fundamenten y 
+analicen un sistema inteligente artificial aplicado a un dominio específico de su elección. El 
+trabajo debe integrar los contenidos de las Unidades I y II, demostrando comprensión 
+teórica y capacidad de aplicación práctica. 
+Estructura del Paper (8-12 páginas) 
+1. Resumen/Abstract (200-250 palabras) 
+Síntesis del problema abordado, metodología y principales conclusiones. 
+2. Introducción (1-2 páginas) 
+●​ Definición del problema o necesidad identificada en un contexto real 
+●​ Justificación de por qué la IA es apropiada para abordarlo 
+●​ Objetivos del sistema propuesto 
+●​ Breve descripción del enfoque seleccionado (simbólico/no simbólico/híbrido) 
+3. Marco Teórico (2-3 páginas) 
+Debe incluir: 
+●​ Fundamentación en IA: Definición aplicada al caso, desmitificación de alguna 
+concepción errónea relacionada con el dominio elegido 
+●​ Clasificación del agente: Tipo de agente inteligente propuesto (reactivo simple, 
+basado en modelos, basado en objetivos, basado en utilidad, con aprendizaje) 
+●​ Caracterización del entorno: PEAS (Performance, Environment, Actuators, Sensors) 
+y propiedades (observable, determinista, episódico/secuencial, etc.) 
+●​ Justificación del enfoque: Por qué se elige simbólico, no simbólico o híbrido 
+ 
+1 
+
+
+=== PAGE 2 ===
+ 
+ 
+4. Diseño del Sistema (3-4 páginas) 
+Los estudiantes deben elegir UNA de estas dos opciones: 
+Opción A: Sistema Experto 
+●​ Arquitectura del sistema experto propuesto 
+●​ Base de conocimiento: mínimo 15-20 hechos y 10-15 reglas de inferencia 
+●​ Representación formal (lógica proposicional o de primer orden) 
+●​ Motor de inferencia: encadenamiento hacia adelante/atrás (justificar elección) 
+●​ Interfaz usuario-sistema 
+●​ Pseudocódigo o implementación básica en PYTHON / CLIPS u otra herramienta 
+Opción B: Agente Inteligente de otro tipo 
+●​ Arquitectura del agente 
+●​ Mecanismos de percepción y actuación 
+●​ Representación del conocimiento utilizada 
+●​ Algoritmo o estrategia de toma de decisiones 
+●​ Diagrama de funcionamiento 
+●​ Justificación de por qué no se utilizó un sistema experto basado en reglas 
+5. Caso de Uso/Simulación (1-2 páginas) 
+●​ Descripción de un escenario de aplicación específico 
+●​ Walkthrough del funcionamiento del sistema con datos de ejemplo 
+●​ Capturas de pantalla, diagramas de flujo o tablas de ejecución 
+6. Análisis Crítico (1-2 páginas) 
+●​ Alcances: Qué problemas resuelve efectivamente el sistema 
+●​ Limitaciones: Qué no puede resolver y por qué 
+●​ Comparación: Ventajas/desventajas frente a soluciones alternativas 
+●​ Consideraciones éticas: Sesgos potenciales, transparencia, responsabilidad 
+7. Conclusiones y Trabajo Futuro 
+●​ Síntesis de aportes del sistema 
+●​ Posibles mejoras o extensiones 
+●​ Reflexión sobre el aprendizaje obtenido 
+ 
+2 
+
+
+=== PAGE 3 ===
+ 
+8. Referencias Bibliográficas 
+Mínimo 5 fuentes académicas (libros, papers, documentación técnica) 
+9. Datos Adicionales 
+Opciones Temáticas Sugeridas (no limitativas) 
+1.​ Salud: Diagnóstico asistido de enfermedades, triaje en emergencias 
+2.​ Educación: Tutor inteligente para matemáticas, sistema de recomendación de 
+contenidos 
+3.​ Agricultura: Asesor de cultivos, detección de plagas 
+4.​ Finanzas: Evaluador de riesgo crediticio, asesor de inversiones 
+5.​ Legal: Asistente de búsqueda jurisprudencial, clasificador de casos 
+6.​ Logística: Optimizador de rutas, gestor de inventarios 
+7.​ Atención al cliente: Chatbot especializado, sistema de soporte técnico 
+8.​ Sostenibilidad: Asesor de eficiencia energética, gestor de reciclaje 
+Entregables 
+1.​ Paper en PDF (formato académico profesional) 
+2.​ Material suplementario (opcional): 
+○​ Código fuente (CLIPS, Python, etc.) 
+○​ Video de demostración (máx. 5 min) 
+○​ Presentación ejecutiva (10 slides) 
+Notas Adicionales 
+●​ Trabajo individual o en equipos de máximo 2 estudiantes 
+●​ Se valorará especialmente la conexión con problemas reales del contexto 
+local/regional 
+●​ Los sistemas no necesitan estar completamente implementados, pero el diseño debe 
+ser técnicamente sólido y realizable 
+●​ Se permite consultar con el docente para validar la viabilidad del tema elegido  
+Formato del Paper IEEE 
+Plantillas Oficiales IEEE: 
+●​ IEEE Author Center (Oficial en inglés): 
+○​ https://www.ieee.org/conferences/publishing/templates.html 
+○​ Plantillas en Word, LaTeX y formatos adicionales 
+3 
+
+
+=== PAGE 4 ===
+ 
+●​ Plantilla IEEE en español - Universidad del Norte (Colombia): 
+○​ https://revistas.pucp.edu.pe/imagenes/electro/ee_formato_ieee.pdf Formato 
+IEEE para presentar artículos Seudónimo/Autor 
+○​ Guía completa con ejemplos en español 
+●​ Plantilla IEEE Word - Normas APA: 
+○​ https://normas-apa.com/descargar-plantilla-formato-ieee-word/ ▷ Descargar 
+plantilla de formato IEEE en Word 2025 
+○​ Descarga directa de plantilla editable 
+●​ Plantilla IEEE - Universidad de Antioquia (Colombia): 
+○​ https://bibliotecadigital.udea.edu.co/handle/10495/18844 Plantilla IEEE 
+(Word) 
+○​ Documento editable e interactivo 
+Guías y tutoriales IEEE: 
+●​ Guía formato IEEE - Studocu: 
+○​ https://www.studocu.com/ec/document/escuela-politecnica-nacional/fisica-ava
+nzada/formato-ieee-paper/29031155 Formato IEEE Paper - Formato para 
+presentar artículos adaptado de acuerdo a las normas IEEE Primer - Studocu 
+○​ Incluye explicaciones sobre estructura de 150-250 palabras para resumen 
+ 
+¡Éxito en el desarrollo de su sistema inteligente! 🤖📄🖖 
+ 
+ 
+4 
+
+

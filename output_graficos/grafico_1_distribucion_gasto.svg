@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 480" width="750" height="480" font-family="Arial, sans-serif">
+<rect width="750" height="480" fill="#ffffff" rx="10"/>
+<text x="375" y="40" text-anchor="middle" font-size="16" font-weight="bold" fill="#2c3e50">Distribución del Gasto Total de la Boleta Unificada ($377.559,51)</text>
+<g transform="translate(0, 20)">
+<path d="M 260 240 L 420.00 240.00 A 160 160 0 0 1 108.37 291.06 Z" fill="#1f77b4" stroke="#ffffff" stroke-width="2"/>
+<rect x="470" y="120" width="16" height="16" fill="#1f77b4" rx="3"/>
+<text x="495" y="133" font-size="12" fill="#333333">Aguas del Norte (Saneamiento): $169,262.42 (44.8%)</text>
+<path d="M 260 240 L 108.37 291.06 A 160 160 0 0 1 326.95 94.68 Z" fill="#ff7f0e" stroke="#ffffff" stroke-width="2"/>
+<rect x="470" y="152" width="16" height="16" fill="#ff7f0e" rx="3"/>
+<text x="495" y="165" font-size="12" fill="#333333">EDESA S.A. (Electricidad Neta): $139,850.89 (37.0%)</text>
+<path d="M 260 240 L 326.95 94.68 A 160 160 0 0 1 411.41 188.29 Z" fill="#2ca02c" stroke="#ffffff" stroke-width="2"/>
+<rect x="470" y="184" width="16" height="16" fill="#2ca02c" rx="3"/>
+<text x="495" y="197" font-size="12" fill="#333333">Tasas Municipales e Inmobiliario: $48,670.80 (12.9%)</text>
+<path d="M 260 240 L 411.41 188.29 A 160 160 0 0 1 418.86 220.93 Z" fill="#d62728" stroke="#ffffff" stroke-width="2"/>
+<rect x="470" y="216" width="16" height="16" fill="#d62728" rx="3"/>
+<text x="495" y="229" font-size="12" fill="#333333">Incidencia Alumbrado (kWh): $12,597.08 (3.3%)</text>
+<path d="M 260 240 L 418.86 220.93 A 160 160 0 0 1 420.00 240.00 Z" fill="#9467bd" stroke="#ffffff" stroke-width="2"/>
+<rect x="470" y="248" width="16" height="16" fill="#9467bd" rx="3"/>
+<text x="495" y="261" font-size="12" fill="#333333">Canon LUSAL (Mantenimiento): $7,178.32 (1.9%)</text>
+<circle cx="260" cy="240" r="75" fill="#ffffff"/>
+<text x="260" y="235" text-anchor="middle" font-size="13" font-weight="bold" fill="#2c3e50">Total Factura</text>
+<text x="260" y="258" text-anchor="middle" font-size="12" fill="#7f8c8d">$377,559.51</text>
+</g></svg>

@@ -1,0 +1,115 @@
+{
+  "metadata_sanitizacion": {
+    "protocolo": "PII Masking - Ley 25.326 de Proteccion de Datos Personales (Argentina)",
+    "titular_sanitizado": "USUARIO_ANON_01",
+    "domicilio_sanitizado": "Avda. San Martín 12XX, Salta Capital",
+    "responsable_auditoria": "Estudiante UGD (Matricula: 100001)",
+    "catedra": "Principios de Inteligencia Artificial (GT110) - UGD 2026",
+    "fecha_procesamiento": "2026-08-28T12:00:00Z"
+  },
+  "bloque_a_identificacion": {
+    "nis": "3024***",
+    "nro_liquidacion": "0101-52063303",
+    "periodo_facturado": "08/2026",
+    "fecha_emision": "2026-08-26",
+    "fecha_vencimiento": "2026-09-16",
+    "proximo_vencimiento": "2026-10-16",
+    "fecha_corte_suspension": "2026-09-30",
+    "deuda_vencida_pendiente": 0.0,
+    "pago_anterior_registrado": 516720.99,
+    "total_factura": 340064.55
+  },
+  "bloque_b_electricidad_edesa": {
+    "empresa_distribuidora": "EDESA S.A.",
+    "categoria_tarifaria": "T1-R2-SEF",
+    "descripcion_categoria": "Tarifa 1 Pequeñas Demandas, Rango 2 Residencial, Servicio Electrico Focalizado",
+    "tipo_inmueble_declarado": "RESIDENCIAL",
+    "medidor": "1688***",
+    "marca_medidor": "LANDIS+GYR",
+    "potencia_contratada_kw": 2.0,
+    "periodo_lectura": {
+      "desde": "2026-07-15",
+      "hasta": "2026-08-14",
+      "dias": 30
+    },
+    "energia_activa": {
+      "lectura_anterior": 29439.0,
+      "lectura_actual": 29796.0,
+      "constante": 1.0,
+      "consumo_kwh": 357.0
+    },
+    "energia_reactiva": {
+      "lectura_anterior": 10838.0,
+      "lectura_actual": 10935.0,
+      "constante": 1.0,
+      "consumo_kvarh": 97.0
+    },
+    "factor_potencia_cos_phi": 0.965,
+    "desglose_costos": {
+      "cargo_fijo_total": 9150.0,
+      "energia_activa_base_200kwh": 36100.0,
+      "energia_activa_excedente": 34489.83,
+      "iva_consumidor_final_21": 16744.86,
+      "subtotal_edesa_neto": 96484.69,
+      "incidencia_energia_alumbrado_publico_kwh": 27.5,
+      "incidencia_energia_alumbrado_publico_monto": 12234.22,
+      "subtotal_con_alumbrado": 108718.91,
+      "subsidio_estatal_declarado": 29354.77
+    }
+  },
+  "bloque_c_agua_aguas_del_norte": {
+    "empresa_concesionaria": "Aguas del Norte S.A. / CoSAySa",
+    "usuario_id": "395**",
+    "codigo_servicio": "AGYCL",
+    "descripcion_servicio": "Agua Potable y Desagües Cloacales",
+    "catastro": "430**",
+    "condicion_fiscal": "IVA Sujeto No Categorizado",
+    "categoria_uso": "NO RESIDENCIAL 1",
+    "tipo_inmueble_declarado": "NO_RESIDENCIAL",
+    "medidor": "0000007***",
+    "diametro_mm": 19,
+    "coeficiente": 1.1,
+    "periodo_lectura": {
+      "desde": "2026-06-27",
+      "hasta": "2026-07-26",
+      "dias": 30
+    },
+    "lecturas_volumen": {
+      "lectura_anterior_m3": 4511.0,
+      "lectura_actual_m3": 4548.0,
+      "consumo_m3": 37.0,
+      "rango_m3": "20 a 50 m3",
+      "precio_unitario_m3": 1420.608
+    },
+    "desglose_costos": {
+      "cargo_fijo": 67976.53,
+      "consumo_variable": 52562.5,
+      "tasa_fiscalizacion_enresp_2": 2410.78,
+      "iva_no_categorizado_27": 32545.54,
+      "percepcion_iva_no_categorizado_13_5": 20666.42,
+      "subtotal_aguas_del_norte": 176161.77
+    }
+  },
+  "bloque_d_tributos_municipales_y_concesiones": {
+    "municipalidad_de_salta": {
+      "tasa_municipal": 44614.9,
+      "proteccion_bienes_y_personas": 1216.77,
+      "impuesto_inmobiliario": 2839.13,
+      "subtotal_municipal": 48670.8
+    },
+    "lusal_ute": {
+      "concepto": "Mantenimiento Alumbrado Publico",
+      "tarifa": "C1",
+      "subtotal_lusal": 6513.07
+    },
+    "subtotal_conceptos_municipales_y_externos": 55183.87
+  },
+  "bloque_e_marco_regulatorio_enresp": {
+    "ente_regulador": "Ente Regulador de los Servicios Publicos de Salta (ENRESP)",
+    "resolucion_desdoblamiento": "Resolucion ENRESP Nro. 1590/24",
+    "derecho_desdoblamiento": true,
+    "servicio_esencial_prioritario": "ENERGIA_ELECTRICA",
+    "monto_desdoblable_energia": 108718.91,
+    "monto_conceptos_desdoblables_excluidos": 231345.64
+  }
+}

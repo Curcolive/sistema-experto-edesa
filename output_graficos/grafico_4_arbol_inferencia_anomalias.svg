@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 480" width="860" height="480" font-family="Arial, sans-serif">
+  <rect width="860" height="480" fill="#ffffff" rx="10"/>
+  <text x="430" y="35" text-anchor="middle" font-size="16" font-weight="bold" fill="#2c3e50">Árbol de Derivación Lógica y Reglas de Inferencia (GOFAI)</text>
+
+  <!-- COLUMNA 1: HECHOS INICIALES (PERCEPCIÓN) -->
+  <text x="140" y="70" text-anchor="middle" font-size="12" font-weight="bold" fill="#7f8c8d">HECHOS PERCIBIDOS (WM)</text>
+  
+  <rect x="30" y="90" width="220" height="45" fill="#e8f8f5" stroke="#1abc9c" stroke-width="2" rx="6"/>
+  <text x="140" y="117" text-anchor="middle" font-size="11" font-weight="bold" fill="#16a085">H1: EDESA = RESIDENCIAL</text>
+
+  <rect x="30" y="160" width="220" height="45" fill="#fdebd0" stroke="#e67e22" stroke-width="2" rx="6"/>
+  <text x="140" y="187" text-anchor="middle" font-size="11" font-weight="bold" fill="#d35400">H2: AGUA = NO RESIDENCIAL</text>
+
+  <rect x="30" y="240" width="220" height="45" fill="#fadbd8" stroke="#e74c3c" stroke-width="2" rx="6"/>
+  <text x="140" y="267" text-anchor="middle" font-size="11" font-weight="bold" fill="#c0392b">H3: Condición Fiscal = No Categ.</text>
+
+  <rect x="30" y="320" width="220" height="45" fill="#ebf5fb" stroke="#3498db" stroke-width="2" rx="6"/>
+  <text x="140" y="347" text-anchor="middle" font-size="11" font-weight="bold" fill="#2980b9">H4: Total > $150k + Res. 1590/24</text>
+
+  <rect x="30" y="390" width="220" height="45" fill="#f4ecf7" stroke="#8e44ad" stroke-width="2" rx="6"/>
+  <text x="140" y="417" text-anchor="middle" font-size="11" font-weight="bold" fill="#6c3483">H5: Deuda Vencida = $0 (Al día)</text>
+
+  <!-- COLUMNA 2: REGLAS DISPARADAS (RESOLUCIÓN DE CONFLICTOS) -->
+  <text x="440" y="70" text-anchor="middle" font-size="12" font-weight="bold" fill="#7f8c8d">REGLAS DISPARADAS (INFERENCE)</text>
+
+  <rect x="330" y="125" width="220" height="50" fill="#f2f4f4" stroke="#34495e" stroke-width="2" rx="6"/>
+  <text x="440" y="146" text-anchor="middle" font-size="11" font-weight="bold" fill="#2c3e50">Regla R02 [Prioridad 95]</text>
+  <text x="440" y="162" text-anchor="middle" font-size="10" fill="#7f8c8d">Inconsistencia Catastral</text>
+
+  <rect x="330" y="235" width="220" height="50" fill="#f2f4f4" stroke="#34495e" stroke-width="2" rx="6"/>
+  <text x="440" y="256" text-anchor="middle" font-size="11" font-weight="bold" fill="#2c3e50">Regla R01 [Prioridad 100]</text>
+  <text x="440" y="272" text-anchor="middle" font-size="10" fill="#7f8c8d">Castigo Fiscal IVA 40,5%</text>
+
+  <rect x="330" y="335" width="220" height="50" fill="#f2f4f4" stroke="#34495e" stroke-width="2" rx="6"/>
+  <text x="440" y="356" text-anchor="middle" font-size="11" font-weight="bold" fill="#2c3e50">Regla R07 [Prioridad 70]</text>
+  <text x="440" y="372" text-anchor="middle" font-size="10" fill="#7f8c8d">Desdoblamiento ENRESP 1590</text>
+
+  <!-- COLUMNA 3: METAS Y CONCLUSIONES INFERIDAS -->
+  <text x="730" y="70" text-anchor="middle" font-size="12" font-weight="bold" fill="#7f8c8d">METAS DERIVADAS (XAI)</text>
+
+  <rect x="620" y="160" width="220" height="65" fill="#d4efdf" stroke="#27ae60" stroke-width="2" rx="6"/>
+  <text x="730" y="185" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e8449">Meta R04: Ahorro Mensual</text>
+  <text x="730" y="202" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e8449">$64.210,15 ARS/mes</text>
+  <text x="730" y="218" text-anchor="middle" font-size="9" fill="#27ae60">Anualizado: $770.521,80</text>
+
+  <rect x="620" y="325" width="220" height="65" fill="#d6eaf8" stroke="#2980b9" stroke-width="2" rx="6"/>
+  <text x="730" y="350" text-anchor="middle" font-size="11" font-weight="bold" fill="#1f618d">Meta R12: Dictamen ENRESP</text>
+  <text x="730" y="367" text-anchor="middle" font-size="10" font-weight="bold" fill="#1f618d">Pagar Luz: $152.447,97</text>
+  <text x="730" y="383" text-anchor="middle" font-size="9" fill="#2980b9">Protegido contra Suspensión</text>
+
+  <!-- FLECHAS Y CONEXIONES -->
+  <line x1="250" y1="112" x2="330" y2="140" stroke="#7f8c8d" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="250" y1="182" x2="330" y2="160" stroke="#7f8c8d" stroke-width="1.5"/>
+  <line x1="250" y1="262" x2="330" y2="260" stroke="#7f8c8d" stroke-width="1.5"/>
+  <line x1="250" y1="342" x2="330" y2="350" stroke="#7f8c8d" stroke-width="1.5"/>
+  <line x1="250" y1="412" x2="620" y2="365" stroke="#7f8c8d" stroke-width="1.5" stroke-dasharray="4,4"/>
+
+  <line x1="550" y1="150" x2="620" y2="185" stroke="#27ae60" stroke-width="2"/>
+  <line x1="550" y1="260" x2="620" y2="195" stroke="#27ae60" stroke-width="2"/>
+  <line x1="550" y1="360" x2="620" y2="355" stroke="#2980b9" stroke-width="2"/>
+</svg>

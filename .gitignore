@@ -1,0 +1,58 @@
+# Entorno y credenciales sensibles
+.env
+*.env
+!.env.example
+
+# Documentación y archivos del paper (No subir a repositorio público)
+docs/
+*.docx
+*.pdf
+output_graficos/pdf_pages/
+
+# Scripts específicos para la generación/compilación del paper Word/PDF
+scripts/build_*.py
+scripts/check_*.py
+scripts/compile_*.py
+scripts/convert_*.ps1
+scripts/docx_to_pdf.ps1
+scripts/find_*.py
+scripts/generate_12p_paper.py
+scripts/generate_docx_paper.py
+scripts/inspect_*.py
+scripts/list_*.py
+scripts/make_*.py
+scripts/master_*.py
+scripts/paper_*.py
+scripts/render_*.py
+scripts/search_*.py
+scripts/sync_*.py
+scripts/test_body_clear.py
+scripts/test_modify.py
+
+# Python cache y compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Testing y reportes
+.pytest_cache/
+.coverage
+htmlcov/
