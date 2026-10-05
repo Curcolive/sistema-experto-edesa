@@ -56,3 +56,4 @@ ehthumbs.db
 .pytest_cache/
 .coverage
 htmlcov/
+.vercel
